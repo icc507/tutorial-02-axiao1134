@@ -9,8 +9,9 @@
 #		  mundo 44
 #La salida debe ser
 #         ('mundo', 44, 20, 90, 'hola', 'mundo', 44)
-t = input()
-m = input()
-m+=t
-t+=m
-print(t)
+t = input().split()
+t_separado=tuple(t)
+m=input().split()
+m_separado=tuple(m)
+print(m+t+m)
+
