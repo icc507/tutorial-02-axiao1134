@@ -13,5 +13,6 @@ t = input().split()
 t_separado=tuple(t)
 m=input().split()
 m_separado=tuple(m)
-print(m+t+m)
+
+print(type(m+t+m))
 
