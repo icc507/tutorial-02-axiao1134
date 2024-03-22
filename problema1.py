@@ -17,7 +17,6 @@ t_T = tuple(int(x) if x.isdigit() else x for x in t)
 m_T = tuple(int(x) if x.isdigit() else x for x in m)
 
 resultado = m_T + t_T + m_T
-print(type(resultado))
 
 print(resultado)
 
