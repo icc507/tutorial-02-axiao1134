@@ -10,9 +10,10 @@
 #La salida debe ser
 #         ('mundo', 44, 20, 90, 'hola', 'mundo', 44)
 t = input().split()
-t_separado=tuple(t)
+t_T=tuple(t)
 m=input().split()
-m_separado=tuple(m)
+m_T=tuple(m)
+h=m_T+t_T+m_T
 
-print(type(m+t+m))
+print(h)
 
